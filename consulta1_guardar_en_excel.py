@@ -16,7 +16,7 @@ def consulta2():
         cursor = conexion.cursor()
 
         # Ejecutar la consulta SQL
-        cursor.execute("SELECT * FROM llx_user")
+        cursor.execute("SELECT user,job,photo FROM llx_user")
 
         # Obtener todos los resultados en un DataFrame de Pandas
         resultados = pd.DataFrame(cursor.fetchall(), columns=[i[0] for i in cursor.description])
