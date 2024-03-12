@@ -1,5 +1,6 @@
 #https://pip.pypa.io/en/stable/installation/
-#pip install mysql.connector
+#pip install pandas xlsxwriter openpyxl mysql-connector-python
+
 import mysql.connector
 
 
