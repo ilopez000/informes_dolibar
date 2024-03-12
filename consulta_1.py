@@ -1,3 +1,4 @@
+#https://pip.pypa.io/en/stable/installation/
 #pip install mysql.connector
 import mysql.connector
 
